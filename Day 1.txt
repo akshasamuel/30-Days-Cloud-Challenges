@@ -1,0 +1,48 @@
+Task 1: Create a Virtual Network and Set Up a Subnet
+
+Steps to follow:
+
+Open the Virtual Network option from the top-left menu or search for it in the search bar.
+Click CREATE to start creating a Virtual Network (VNet).
+Fill in the required details:
+Choose a Resource Group (create a new one or use an existing one).
+Enter the VNet name.
+Pick a Region.
+Go to the IP Addresses section and create a new address range.
+Add a subnet:
+Click Add subnet.
+Provide a Subnet name and assign an IP address range.
+Click CREATE to save the subnet.
+Proceed to the Review + Create tab and click CREATE to finalize the process.
+After the deployment is complete, go to the resource to see your new Virtual Network.
+To add more subnets, click on Subnets under your VNet settings.
+
+Task 2: Create a Virtual Machine (VM) in the Subnet and Access It
+
+Steps to create a VM:
+
+Open the Virtual Machines option from the top-left menu or search for it in the search bar.
+Choose Azure Virtual Machine and click Create.
+Fill in the required details:
+Resource Group: Create a new one or use an existing one.
+VM Name: Choose a name for your Virtual Machine.
+Region: Select a location.
+Image: Choose the OS image you want.
+Size: Pick the VM size (based on your needs).
+Admin Account: Enter a Username, Password, and confirm the password.
+Go to the Disk section and select Standard SSD.
+Leave other settings as default.
+Click on Review + Create, and after reviewing the details, click CREATE.
+Once the deployment is done, click Go to Resource to access your Virtual Machine.
+Steps to access the VM:
+Open the created VM’s details page.
+Look for its Public IP Address and copy it.
+Open the Remote Desktop Connection app on your computer.
+Paste the copied IP address into the Computer field.
+Enter the Username and Password you set during VM creation.
+Click Connect to access the Virtual Machine.
+
+
+
+
+
