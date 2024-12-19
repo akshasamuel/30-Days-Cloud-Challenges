@@ -1,0 +1,20 @@
+Steps to Create Two Virtual Machines in Separate Virtual Networks
+
+Step 1: Go to the Virtual Machines option from the left menu on the Azure portal's homepage or type “Virtual Machines” in the search bar and select it.
+Step 2: Click on Create and choose Azure Virtual Machine.
+Step 3: Provide the required details:
+  Resource Group: You can use an existing one or create a new one as per your preference.
+  Virtual Machine Name: Give a unique name for the VM.
+  Region: Select the region where you want to deploy the VM.
+  Image: Choose the operating system for your VM (e.g., Windows or Linux).
+  Size: Pick the VM size based on your workload.
+  Administrator Account: Enter a username, password, and confirm the password.
+Step 4: Go to the Disk section and choose Standard SSD.
+Step 5: Under the Networking tab, select a Virtual Network (VNet) and Subnet for your Virtual Machine. Make sure to create or select a unique VNet for this VM.
+Step 6: Click Review + Create, verify your settings, and hit Create to start the deployment.
+Step 7: Once the deployment is complete, click on Go to Resource to view your Virtual Machine details.
+Step 8: Repeat the process to create the second Virtual Machine:
+
+Follow steps 1 to 5 again.
+Ensure you select a different Virtual Network (VNet) for the second VM.
+This way, you will have two Virtual Machines in separate Virtual Networks.
