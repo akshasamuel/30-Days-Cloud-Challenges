@@ -1,0 +1,40 @@
+Create a Virtual Machine and Attach Multiple NICs
+
+Steps to create a Virtual Machine:
+
+Step 1: Sign in to your Azure portal using your account.
+Step 2: Select Virtual Machines from the left menu or search for it in the search bar.
+Step 3: Click on Create and choose Azure Virtual Machine.
+Step 4: Provide the necessary details:
+  Choose or create a Resource Group.
+  Enter the VM Name.
+  Select the Region where you want the VM to be hosted.
+  Pick the Operating System Image.
+  Choose the VM Size.
+  Set up an Admin Account with a Username and Password.
+Step 5: In the Disk section, choose Standard SSD.
+Step 6: Leave the remaining settings as default.
+Step 7: Click on Review + Create. After reviewing, click CREATE to deploy the Virtual Machine.
+Step 8: Once the VM is ready, click on Go to Resource to access the Virtual Machine.
+
+Steps to attach multiple NICs (Network Interface Cards):
+
+Step 1: Open the created Virtual Machine from the Azure portal.
+Step 2: Go to the Networking section in the VM's settings and select Attach Network Interface.
+Step 3: Provide the details for the new NIC:
+  Enter a Name for the NIC.
+  Configure the IP Address.
+  Choose the corresponding Virtual Network (VNet).
+Step 4: Click Add to create and attach the NIC.
+Step 5: After the NIC is deployed, you can view and verify it under the VM's Networking section.
+
+Create Private and Public Subnets in a Virtual Network
+
+Steps to create private and public subnets:
+
+Step 1: Go to the Azure portal and open the Virtual Network you created earlier.
+Step 2: In the Virtual Network's settings, click on Subnets.
+Step 3: Click Add to create a new subnet.
+Step 4: For a Private Subnet, enable private access by selecting Yes in the private access option.
+Step 5: For a Public Subnet, disable private access by choosing No in the private access option.
+Step 6: Save the configuration, and your new subnet will be added to the Virtual Network.
