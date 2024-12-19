@@ -1,0 +1,87 @@
+Create Virtual Networks
+
+1.Steps to create Virtual Networks:
+
+Step 1: Open your Azure portal and search for Virtual Network in the search bar or access it from the top-left menu.
+Step 2: Click CREATE to start creating a Virtual Network (VNet).
+Step 3: Provide the required details:
+  Select or create a Resource Group.
+  Enter a VNet Name.
+  Choose a Region.
+Step 4: Go to the IP Addresses section and configure a new address range.
+Step 5: Proceed to Review + Create and click CREATE to deploy the VNet.
+Step 6: Once the deployment is complete, open the resource to view the VNet.
+Step 7: Repeat the steps above to create three additional VNets.
+
+2.Managing Virtual Networks (HUB)
+
+Create a Virtual Network Manager
+
+Step 1: Search for Virtual Network Manager in the Azure portal search bar.
+Step 2: Click CREATE to start the setup.
+Step 3: Fill in the following details:
+  Create or select a Resource Group.
+  Enter a Network Manager Name.
+  Select a Region.
+  Choose the features Connectivity and Security Admin.
+Step 4: Select the Scope (e.g., Free Trial), then click Review + Create.
+Step 5: Click CREATE, and after deployment, go to the resource to view the Network Manager.
+
+Create Virtual Networks
+
+Step 6: Create Virtual Networks based on your requirements, ensuring they are in the same Resource Group as the Network Manager.
+Step 7: Assign unique IP address ranges to avoid overlaps and add tags if needed.
+
+Create a Virtual Network Gateway
+
+Step 8: Search for Virtual Network Gateway in the Azure portal search bar.
+Step 9: Click CREATE to start the gateway setup.
+Step 10: Provide the required details:
+  Use the same Resource Group as before.
+  Enter a Gateway Name.
+  Select the Virtual Network and Region.
+  Specify the VPN Type, SKU, and Generation (1 or 2).
+  Configure a Public IP Address Name.
+Step 11: Click Review + Create and then CREATE.
+Step 12: After deployment, open the resource to view the Virtual Network Gateway.
+
+Create Network Groups in Network Manager
+
+Step 13: Open the Network Manager resource and go to Network Groups.
+Step 14: Enter a name for the group and select Virtual Network as the member type. Click Create.
+Step 15: Open the created Network Group and manually add VNets as members.
+
+Create Configurations in Network Manager
+
+Step 16: In the Network Manager, go to Configurations and create a Connectivity Configuration.
+Step 17: Provide a name and select the Hub and Spoke topology.
+Step 18: Choose the VNet to be used as the Hub.
+Step 19: Add the Network Groups and enable connectivity within them.
+Step 20: Click Review + Create and then CREATE.
+
+Deploy the Configurations
+
+Step 21: Select the Connectivity Configuration you created.
+Step 22: Specify the Region.
+Step 23: Click Review + Deploy and then DEPLOY.
+
+3.Testing Connectivity
+
+Create a Windows Virtual Machine
+Step 1: Search for Virtual Machine in the Azure portal.
+Step 2: Select Windows to create a Windows-based Virtual Machine.
+Step 3: Fill in the necessary details:
+  Use the same Resource Group as before.
+  Provide a VM Name.
+  Select a Region, Image, and Size.
+  Configure the admin account with a Username and Password.
+  Disable public inbound ports.
+Step 4: In the Networking section, select the desired VNet. An IP address will be created automatically.
+Step 5: Click Review + Create, and after reviewing, click CREATE.
+Step 6: Once the deployment is complete, open the resource to view the VM.
+
+Verify Connectivity
+
+Step 7: Go to the Networking section of the VM and open the Network Interface Card (NIC).
+Step 8: Navigate to Effective Routes in the Help section to check the routes.
+Step 9: Open the Hub VNet and go to Peerings to confirm that the VNets are successfully connected.
