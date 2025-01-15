@@ -1,0 +1,22 @@
+Hosting a Website with Azure Blob Storage
+
+Start by searching for Storage Accounts in Azure and click Create.
+
+Fill in the required details:
+-Storage Account Name
+-Region
+-Performance: Standard
+-Access Tier: Hot
+
+After deployment, access the Storage Account from your resource group.
+
+Under Containers, create a container (name it as desired) and upload your files.
+
+Enable Static Website Hosting
+- Open Visual Studio Code and install the Azure Storage extension.
+- In the Storage Account, go to the Static Website section and enable it.
+- Specify your Index and Error document names.
+- Create a new folder in VSC and add index.html and error.html.
+- Write the content for both HTML files and upload the folder by right-clicking.
+- Select your subscription and deploy the files to Azure.
+- After deployment, click on the notification to see your website live.
