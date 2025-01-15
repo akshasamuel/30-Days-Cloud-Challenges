@@ -1,0 +1,26 @@
+Creating a Virtual Network with Two Subnets
+
+Step 1: In the Azure portal, search for Virtual Network and click Create.
+Step 2: Provide the required details:
+-Resource Group
+-VNet Name
+-Region
+Step 3: After reviewing, click Create.
+Step 4: Once deployed, go to the Virtual Network resource.
+Step 5: Under Address Space, add two CIDR blocks for the subnets.
+Step 6: Save the changes and go to the Subnets section.
+Step 7: Click Add to create two subnets, entering the appropriate CIDR block ranges.
+Step 8: Click Add again to finalize the subnets.
+
+Launching Virtual Machines in an Availability Set
+
+Step 1: Search for Virtual Machines and select Create.
+Step 2: Enter the required VM details, including:
+-Resource Group
+-VM Name
+-Region
+-Image & Size
+-Admin account credentials
+Step 3: Under Availability Options, create a new Availability Set.
+Step 4: Click Review + Create, then click Create to deploy the VM.
+Step 5: Once the first VM is deployed, repeat steps 1-4 to create a second VM in the availability set.
