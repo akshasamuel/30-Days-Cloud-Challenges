@@ -1,0 +1,13 @@
+Setting Up a Point-to-Site VPN on Azure
+
+step 1:Create a Virtual Network and configure it with the necessary details (name, Resource Group, location).
+step 2:Set up a Gateway Subnet and deploy a Virtual Network Gateway.
+step 3:Configure the Virtual Network Gateway by selecting the appropriate subscription, Resource Group, and VNet.
+step 4:Generate and download a root certificate.
+step 5:Install the VPN client on the client machine.
+step 6:Connect to the VNet and verify the connection.
+
+
+
+
+
