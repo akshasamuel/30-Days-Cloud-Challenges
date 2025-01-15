@@ -1,0 +1,28 @@
+Creating and Configuring Azure Resources
+
+1. Create a Virtual Network:
+
+-Navigate to "Virtual Network" from the Azure menu or search bar.
+-Select "Create" and provide details like Resource Group, VNet name, and Region.
+-Configure IP addresses, add a subnet named myBackendSubnet with an IP range, and enable "Azure Bastion Host."
+-Proceed to "Review + Create," then deploy the VNet.
+
+2. Create a NAT Gateway:
+
+-Search for "NAT Gateway" in Azure.
+-Provide details such as Resource Group, name, Region, and Public IP address.
+-Link it to the VNet's backend subnet created earlier, then complete the deployment.
+
+3. Create an External Load Balancer:
+
+-Search for "Load Balancer" and choose "Public" as the type.
+-Add a Frontend IP configuration with a public IP, linked to the VNet and subnet.
+-Configure Backend Pools by linking IP addresses and VNets.
+-Add Inbound Load Balancing rules with health probes and session persistence. Deploy the load balancer.
+
+4. Create an Internal Load Balancer:
+
+-Similar to the external load balancer, but choose "Internal" as the type.
+-Use private IP addresses for Frontend configurations and Backend Pools.
+-Add rules and health probes to manage traffic internally. Deploy the load balancer.
+-This setup ensures seamless networking across VNets and resources in Azure.
