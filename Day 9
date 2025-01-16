@@ -1,0 +1,15 @@
+Snapshot of a Virtual Machine
+
+Step 1: Access your existing Virtual Machine.
+Step 2: Navigate to the “Disks” section in the VM’s settings.
+Step 3: Click to create a new snapshot.
+Step 4: Provide details such as Snapshot Name and select “Full” as the Snapshot Type.
+Step 5: Save the snapshot.
+Step 6: Create a new disk from the snapshot you’ve just saved.
+
+Creating a Virtual Machine from a VHD
+
+Step 1: From the disk section, choose to create a new Virtual Machine.
+Step 2: Select the disk created from the snapshot.
+Step 3: Proceed to “Review + Create” and hit “Create” to launch the VM.
+Step 4: After deployment, go to the resource section to access your newly created VM.
