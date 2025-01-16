@@ -1,0 +1,20 @@
+Creating a Virtual Network with Azure Bastion:
+
+-Search for "Virtual Network" and click "Create."
+-Provide details like Resource Group, VNet name, and Region.
+-Set up the IP addresses, then enable Azure Bastion in the security section.
+-Azure Bastion Host and Public IP are created automatically.
+-Review and create the VNet.
+
+Creating a Virtual Machine:
+
+-Search for "Virtual Machines" and select "Create."
+-Provide details like Resource Group, VM name, Region, and Image.
+-Select Standard SSD for the disk.
+-Review and create the VM.
+
+Connect to VM via Azure Bastion:
+
+-Go to the created VM.
+-In the VM menu, select "Bastion."
+-Enter the Username and Password to connect.
