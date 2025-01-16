@@ -1,0 +1,11 @@
+Assign Azure Policy:
+-Search for "Azure Policy" in the portal and navigate to it.
+-Search for "Allowed Locations" policy.
+-Click "Assign Policy" and enter the details:
+-Scope, Resource Group, Policy Definition, Allowed Locations, Name, Description.
+-In Parameters, select "Central India."
+-Click "Create" to assign the policy.
+
+Testing the Policy:
+-Created a Virtual Network in "Central India" — Success.
+-Created a Storage Account in "East US" — Failure.
