@@ -1,0 +1,25 @@
+Create Virtual Network with Single Subnet and Virtual Machine:
+
+-Go to "Virtual Network" and click "Create."
+-Enter Resource Group, Vnet name, and Region.
+-Under IP Addresses, create a new address and add a subnet.
+-Click "Review + Create" and complete the setup.
+-For VM, go to "Virtual Machines," select "Create," enter details, and choose the created Vnet and Subnet.
+-Click "Review + Create" to finalize and deploy the VM.
+
+Schedule Daily Backup for VM:
+
+-In the Resource Group, select the VM’s group.
+-Create a Recovery Service Vault if needed, and click "Backup."
+-Choose the VM and backup policy, then enable the backup.
+
+Create Alert Rule for VM CPU Usage:
+
+-Go to "Monitor" and click "Alerts."
+-Click "+New Alert Rule," enter details like Subscription, VM, Frequency, and Threshold.
+-Set an Action Group and click "Create."
+
+Alert for CPU > 80% via Email:
+
+-Follow the same steps as above, but in Condition, select "Greater than."
+-Add an Action for email, input the email ID, and click "Create" to activate the alert.
