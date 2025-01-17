@@ -1,0 +1,20 @@
+Create a Bridge Network:
+-Log in to Azure portal and navigate to "Virtual networks."
+-Click "+Add" to create a new virtual network, fill in the details like name and address space.
+-Add a subnet, configure firewall and DDoS protection (optional), and click "Create."
+
+Launch Two Docker Containers:
+-Log in to Azure portal and select "Container instances."
+-Click "+Add," fill in details like container group, image name, and resources.
+-Review your settings and click "Create" to launch the containers.
+
+Assign Both Containers to Same Network:
+-Navigate to "Virtual networks" in Azure portal and select the network.
+-Go to "Subnets" and choose the subnet for your containers.
+-Under "Networking" in container settings, associate both containers with the same subnet and click "Save."
+
+
+
+
+
+
