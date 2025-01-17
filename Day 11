@@ -1,11 +1,29 @@
-Assign Azure Policy:
--Search for "Azure Policy" in the portal and navigate to it.
--Search for "Allowed Locations" policy.
--Click "Assign Policy" and enter the details:
--Scope, Resource Group, Policy Definition, Allowed Locations, Name, Description.
--In Parameters, select "Central India."
--Click "Create" to assign the policy.
+Create a sample .NET application and host it on Azure App Services.
 
-Testing the Policy:
--Created a Virtual Network in "Central India" — Success.
--Created a Storage Account in "East US" — Failure.
+-Install Visual Studio and create a new ASP.NET Web Application project.
+-Select the MVC template and customize the app as needed.
+-Build the solution to prepare the application for deployment.
+-In the Azure portal, create a new Web App under Azure App Services.
+-Configure deployment options as "Code" and complete the setup.
+-Use the Deployment Center in Azure to upload and deploy the application.
+-Access the hosted application via the provided Azure URL.
+
+Create an application gateway and access Azure App service through Azure Application gateway.
+
+-In the Azure portal, navigate to "Create a resource" → "Networking" → "Application Gateway."
+-Enter the details for name, resource group, and virtual network.
+-Select the desired "Size" and "SKU" for the application gateway.
+-Add your Azure App Service to the backend pool.
+-Configure a listener with the required protocol and port settings.
+-Create a rule linking the listener to the backend pool.
+-Click "Create" to deploy the application gateway.
+-Copy the public IP or FQDN from the application gateway overview.
+-Update DNS or CNAME records to point to the application gateway's public IP or FQDN.
+-Access your Azure App Service via the application gateway's public IP or FQDN.
+
+
+
+
+
+
+
