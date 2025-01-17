@@ -1,0 +1,8 @@
+-Steps to Mount a Volume/Directory from Host to Docker Container in Azure
+-Access Azure Portal: Log in to the Azure portal and navigate to "Virtual Machines."
+-Select VM: Choose the virtual machine running the Docker container.
+-Attach Disk: Go to the "Disks" section, select or attach a new disk, and configure its settings.
+-Prepare Disk: Connect to the VM, initialize, and format the disk to make it usable.
+-Mount Disk: Mount the disk to a directory on the host system.
+-Run Docker with Volume: Use the docker run command with the -v flag to mount the host directory to a path in the container. Example: docker run -v /host/path:/container/path.
+-Verify Mount: Check inside the container to confirm the directory is properly mounted and accessible.
