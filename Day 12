@@ -1,0 +1,14 @@
+Step 1: Log in to Azure Portal
+Sign in to your Azure Portal account.
+
+Step 2: Create a Docker Container
+Search for "Container Instances," click "Create," choose an image (like Apache or Nginx), and open port 80.
+
+Step 3: Access Your Web Server
+Go to your container’s page, copy its IP, and paste it in your browser.
+
+Step 4: Customize the Web Server (Optional)
+Connect to the container and install or configure your web server.
+
+Step 5: Verify and Test Your Setup
+Open the IP in your browser to check if the web server is working.
