@@ -1,0 +1,28 @@
+1. Implement Management Groups
+Step 1: Search for Microsoft Entra ID in the Azure portal or find it in the menu.
+Step 2: Go to the Manage blade and select Properties.
+Step 3: In the Access Management section, select Management Group and click +Create.
+Step 4: Fill in details for Management Group ID and display name, then create it.
+
+2. Review and Assign a Built-in Azure Role
+Step 1: Open the Management Group you created.
+Step 2: Go to IAM and click +Add for a role assignment.
+Step 3: Select the "Virtual Machine Contributor" role.
+Step 4: Choose the member to assign the role and click Review + Assign.
+
+3. Create a Custom RBAC Role
+Step 1: Open the Management Group and go to IAM.
+Step 2: Click +Add and choose Custom Role.
+Step 3: Enter details like role name, description, and baseline permissions.
+Step 4: In the Permissions tab, exclude permissions for Microsoft.Support and register support resources.
+Step 5: Ensure the Management Group is listed under Assignable Scope.
+
+4. Monitor Role Assignments in the Activity Log
+Step 1: Search for Activity Log in the Azure portal.
+Step 2: Review the log to track activities and verify role assignments.
+
+
+
+
+
+
