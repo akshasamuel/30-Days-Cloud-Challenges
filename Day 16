@@ -1,0 +1,15 @@
+1. Create a Virtual Network (VNet):
+
+Search for "Virtual Network" and click "Create."
+Add details like Resource Group, VNet name, region, and IP range.
+Create a subnet by specifying a name and IP range, then click "Review + Create" to finalize.
+
+2. Launch Two Docker Containers
+
+Search "Container Instances" and click "Create."
+Enter container name, region, and size, then go to the Networking tab.
+Associate each container with the same VNet and subnet, then click "Create."
+
+3. Assign Both Containers to the Same Network:
+
+Ensure both containers are set to "Private" and linked to the same VNet and subnet during setup.
