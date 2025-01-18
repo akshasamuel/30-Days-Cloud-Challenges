@@ -1,0 +1,35 @@
+1. Create and Configure User Accounts
+ a. Navigate to Microsoft Entra ID
+   Step 1: Open the Azure portal and search for "Microsoft Entra ID" in the search bar.
+   Step 2: In the Overview section, click Manage Tenants to review available tenants.
+   Step 3: To manage licenses, return to the Entra ID page and select Licenses if needed.
+ b. Create a New User
+   Step 1: In the Entra ID menu, go to Users > + New User > Create New User.
+   Step 2: Fill in the following details:
+    User Principal Name
+    Display Name
+    Generate or manually set a password
+    Enable the account, Job Title, and Usage Location
+Step 3: Click Create to finalize the user creation.
+ c. Invite an External User
+    Step 1: In the Entra ID menu, go to Users > + New User > Invite External User.
+    Step 2: Enter the details:
+      Email Address
+      Display Name
+      Optional message or description, Job Title, and Usage Location
+
+Step 4: Click Invite to send an invitation to the external user.
+
+2. Create Groups and Add Members
+a. Create a Group
+Step 1: In the Entra ID menu, go to Groups > + New Group.
+Step 2: Enter the details:
+    Group Type: Security
+    Group Name and Description
+    Membership Type: Assigned or Dynamic
+
+Step 3: Click Create to finalize the group creation.
+ b. Add Members to the Group
+   Step 1: Open the newly created group from the Groups menu.
+   Step 2: Click Add Members and search for the desired user(s), including invited external users.
+   Step 3: Select the user(s) and click Add to include them in the group.
