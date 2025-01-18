@@ -1,0 +1,21 @@
+1. Deploy Azure SQL Database:
+
+Step 1: Navigate to Azure SQL in the Azure portal and click "Create."
+Step 2: Fill in details like Resource Group, Admin Login, Password, Database Name, and Region. Create a server if needed.
+Step 3: Choose Public or Private Endpoints and configure networking settings as required.
+Step 4: Set additional options like Data Source DB, Collation, and Timezone.
+Step 5: Click "Review + Create" and then "Create." Once deployed, go to the resource to view the database.
+
+2. Verify Azure SQL in SSMS:
+
+Step 1: Open Microsoft SQL Server Management Studio (SSMS).
+Step 2: Connect to the database using the Server Name, SQL Server Authentication, Admin Login, and Password.
+Step 3: Run queries like SELECT @@VERSION; and SELECT * FROM sys.databases; to verify the database.
+Optional: Create a test table to validate functionality: insert data and query it to confirm.
+
+
+
+
+
+
+
