@@ -1,0 +1,28 @@
+1. Create a Virtual Machine and Virtual Network (VNet):
+
+Search for "Virtual Machines" and click "Create."
+Enter details like resource group, VM name (e.g., Task21VM), region, image, size, and admin credentials.
+In the Networking tab, create a new VNet (e.g., Task21Vnet) with IP range 10.0.0.0/16 and subnet 10.0.0.0/24.
+Disable Boot Diagnostics under Monitoring, review, and click "Create."
+
+2. Create a VM in a Different VNet:
+
+Follow the same steps as above, but name the VM "MVM" and create a new VNet (e.g., MVnet) with IP range 172.16.0.0/16 and subnet 172.16.0.0/24.
+
+3. Test Connection with Network Watcher:
+
+Search for "Network Watcher" and select "Connection Troubleshoot."
+Enter source VM, destination type, protocol, and ports.
+Run diagnostics to test connectivity.
+
+4. Configure VNet Peering:
+
+In Task21Vnet, go to Peerings, and add a new peering with MVnet.
+Enable access and traffic forwarding between VNets.
+Repeat in MVnet to verify the peering setup.
+
+5. Create a Custom Route:
+
+Navigate to "Route Tables" and create a new route table.
+Add routes with details like route name, destination type, hop type, and address.
+Associate the route table with a subnet in the VNet.
