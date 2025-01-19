@@ -1,0 +1,56 @@
+1. Create a VNet with Subnets using the Azure Portal:
+
+Open Virtual Network from the menu or search bar.
+Click Create and fill in:
+Resource Group name
+VNet name
+Region
+Add IP addresses and subnets:
+Define subnet names and IP ranges.
+Click Review + Create and then Create to deploy the VNet.
+Access the resource to view or modify subnets.
+Use the Automation tab to export the template and save it locally.
+
+2. Create a VNet and Subnets using a Template:
+
+Locate and edit the downloaded template and parameter files.
+Update the template with:
+VNet name
+IP ranges
+Subnet names and IP addresses.
+Adjust the parameter file by changing the VNet name.
+Save changes and load the files into the Custom Template deployment.
+Review, edit parameters if needed, and deploy.
+
+3. Configure Communication Between ASG and NSG:
+
+Create an Application Security Group (ASG):
+Search Application Security Group.
+Provide details like:
+Resource Group name
+ASG name
+Region
+Click Review + Create and deploy.
+Create a Network Security Group (NSG) and Associate It with ASG Subnet:
+Search Network Security Group.
+Enter details:
+Resource Group name
+NSG name
+Region
+Deploy, then associate it with the required subnet in your VNet.
+Save changes to establish the connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChatGPT can make mi
