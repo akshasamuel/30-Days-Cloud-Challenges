@@ -1,0 +1,37 @@
+Create and configure an Azure Web App:
+
+-Search for "Azure Web Apps" in the search bar.
+-Click "Create" and provide the required details, including subscription, resource group, web app name, region, publish type, runtime stack, OS, pricing plans, and zone redundancy.
+-Click "Review + Create" and proceed to create the web app.
+-Once deployment is complete, go to the resource group to access the web app.
+
+Set up a Deployment Slot:
+
+-Go to the deployment and click on the default domain.
+-Navigate to deployment settings and select "Add" under deployment slots.
+-Review the staging slot configuration.
+
+Configure Web App Deployment Settings:
+
+-Open the Deployment Center and go to settings.
+-Choose GitHub as the source and enter "Main" for the branch.
+-Save the settings and open the domain link to view the deployed web app.
+
+Swap Deployment Slots:
+
+-Go to the Deployment Slots section and select the "Swap" option.
+-Click "Start" to initiate the swap process.
+-Verify that the production web app displays the correct website.
+
+Configure and Test Autoscaling for the Web App:
+
+-In settings, navigate to "Scale Out" and set scaling to automatic.
+-Set the maximum burst to 2 and save the settings.
+-Go to "Diagnose and Solve Problems," create a load test, and add the test URL.
+-Review the test plan and create the load test to validate autoscaling.
+
+
+
+
+
+
