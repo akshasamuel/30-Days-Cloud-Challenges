@@ -1,0 +1,24 @@
+Create Azure Data Factory:
+Search for Azure Data Factory in the search bar. Click Create and enter details like subscription, resource group, name, region, and version (V2). Click Review + Create and wait for the deployment to complete.
+
+Create SQL Database:
+Search for SQL Database and click Create. Fill in details like subscription, resource group, database name, region, compute+storage, backup redundancy, workload environment, and server. Click Review + Create and wait for the deployment.
+
+Create Storage Account:
+Search for Storage Accounts in the search bar. Enter details like account name, performance (Standard), region, and access tier (Hot). Click Review + Create and wait for the deployment to finish.
+
+Create a Pipeline:
+Click Add Pipeline and rename it if needed.
+
+Link a Service:
+Go to Managed and click Link Service. Select Blob Storage and fill in details such as name, description, authentication type, and account selection method. Click Test Connection and, if successful, click Create.
+
+Create a Dataset:
+Go to Datasets in Author and click Add. Select Blob Storage, choose CSV as the format, name the dataset, and select the file location. Click Add to create the dataset.
+
+
+
+
+
+
+
