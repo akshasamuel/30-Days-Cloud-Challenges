@@ -1,0 +1,21 @@
+Set Up Azure Machine Learning:
+
+Step 1: Search for Azure Machine Learning in the search bar.
+Step 2: Fill in the required details:
+a. Name
+b. Resource group
+c. Storage account
+d. Region
+e. Key Vault
+f. Application Insights
+g. Container Registry
+h. Subscription
+Step 3: Under Networking, choose Public.
+Step 4: For Identity, select User assigned identity if already set up, or it will be created automatically for the required services.
+Step 5: Click on Review + Create.
+Step 6: After deployment, navigate to the resource group to view your Azure ML resource.
+
+Access Azure Machine Learning Studio:
+Step 1: Once deployed, go to the resource overview.
+Step 2: In the overview, click on Launch ML Studio.
+Step 3: Access your Azure Machine Learning Studio to start working on your ML models.
