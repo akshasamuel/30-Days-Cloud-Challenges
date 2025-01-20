@@ -1,0 +1,29 @@
+Azure OpenAI Integration & Monitoring Journey
+Key Highlights
+
+Configured Azure OpenAI Services to deploy advanced AI models like GPT-3.
+Set up Activity Logs and Diagnostic Settings for real-time monitoring and insights.
+Utilized Log Analytics Workspace and Azure Monitor to track performance and build custom dashboards.
+Steps to Recreate
+
+Deploy Azure OpenAI Resource
+
+Create the resource via Azure Portal, selecting the subscription, resource group, and model (e.g., GPT-3).
+Enable Monitoring
+
+Use Activity Logs for tracking operations and setting alerts for key events.
+Configure Diagnostic Settings to send data to Log Analytics or storage.
+Analyze and Visualize Logs
+
+Query logs using KQL in Log Analytics.
+Build dashboards with Azure Monitor Workbooks to track usage and performance.
+Journey Highlights
+
+Explored key Azure services like OpenAI, SQL, and Web Apps.
+Implemented real-time monitoring for optimized AI service performance.
+
+
+
+
+
+
