@@ -1,0 +1,25 @@
+Azure DataBricks Setup and Usage
+Create Azure DataBricks:
+Search "DataBricks," select "Create," and provide details like Resource Group, Name, Region, and Pricing tier. After deployment, access the resource.
+
+Set Up Storage Account:
+Search "Storage Accounts," fill details (Name, Region, Performance, Access Tier), and create. Access it post-deployment.
+
+Launch Azure DataBricks:
+In the overview, click "Launch DataBricks," log in with your Microsoft account, and access the platform's homepage.
+
+Create a Cluster:
+Go to "Clusters," provide details (Mode, Name, Runtime, Worker/Driver types), and create.
+
+Write Scripts:
+Open a Notebook in the workspace, select a coding language, write code, and run using Shift + Enter.
+
+Upload File:
+Upload a JSON file to your Storage Account container, link it in DataBricks, and write code to process it.
+
+
+
+
+
+
+
