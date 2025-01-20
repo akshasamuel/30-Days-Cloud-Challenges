@@ -1,0 +1,18 @@
+Azure Elastic Pool and Database Setup
+Create Azure Elastic Pool:
+Search "Azure Elastic Pool," click "Create," and provide details (Resource Group, Subscription, Pool Name, Server, and Compute). Deploy and access the resource.
+
+Create SQL Database in Elastic Pool:
+Select "+CREATE DATABASE" in Elastic Pool. Networking details and sample database settings are auto-configured. Deploy and access the database resource.
+
+Create Single SQL Database:
+Search "Azure SQL," provide details (Resource Group, Database Name, Admin Login, Password, Server, and Networking). Configure additional settings if needed and deploy.
+
+Connect Databases to SSMS:
+Open SQL Server Management Studio (SSMS), provide connection details (Server Type, Name, Authentication, Username, Password), and connect.
+
+Move Database to Pool:
+Go to the Pool, select Configure, click "Add Database," choose the target DB, and apply changes.
+
+Remove Database from Pool:
+In Pool, navigate to Configure, select the DB to remove, and click "Remove from Pool."
