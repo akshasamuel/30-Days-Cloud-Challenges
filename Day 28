@@ -1,0 +1,33 @@
+Setting Up Azure Speech-to-Text Service
+Log into Azure Portal:
+Sign in to the Azure Portal.
+
+Create Speech Service:
+Search "Speech Services," click + Create, and fill in details (Subscription, Resource Group, Region, Pricing Tier). Deploy the service.
+
+Get API Keys and Endpoint:
+Access your Speech Service resource, and copy the API Key and Endpoint under Keys and Endpoint.
+
+Configure Storage for Audio Files:
+Create a Storage Account in the same resource group, configure settings, and upload audio files to a container.
+
+Use the Speech-to-Text API:
+Use Azure SDKs or REST APIs with the endpoint, API key, and audio file details to transcribe audio.
+
+Automate with Logic Apps:
+Create a Logic App to automate workflows, such as:
+
+Trigger: Monitor new file uploads in storage.
+Action: Call the Speech API to transcribe audio and save output.
+Test and Monitor:
+Upload audio to trigger workflows, verify transcription, and monitor runs in Logic Apps History.
+
+Deploy and Scale:
+Adjust Speech Service tiers for scaling, enable auto-scaling, and monitor performance with Azure Monitor.
+
+
+
+
+
+
+
