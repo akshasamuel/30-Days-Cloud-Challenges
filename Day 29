@@ -1,0 +1,32 @@
+Setting Up SQL Database Servers and Syncing
+Create SQL Database Servers:
+
+Server 1 and Server 2:
+Search "SQL Database Server" in the Azure portal, click + Create, and enter details (Resource Group, Subscription, Server Name, Admin, Username, Password).
+Click Create, then access the resource after deployment.
+Configure Firewall:
+
+For both servers:
+Go to Networking under Security, enable:
+Public network access: Selected Networks.
+Allow Azure services and resources to access.
+Save changes.
+Create Database in SSMS:
+
+Connect to Server 2 in SSMS, open New Query, and execute:
+sql
+Copy
+Edit
+CREATE DATABASE DB-2;
+Sync Databases:
+
+In Server 1, navigate to Databases, select the database, and go to Sync Databases in settings.
+Configure:
+Sync Group Name, Automatic Sync, Frequency, Conflict Resolution, Metadata DB, Username, and Password.
+Click OK to start syncing.
+
+
+
+
+
+
